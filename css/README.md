@@ -22,8 +22,8 @@
 
 <a href="" id="select"></a>
 ##[【选择器】](http://www.w3school.com.cn/cssref/css_selectors.asp)
-![选择器1](../images/xuanzeqi.png)
-![选择器2](../images/xuanzeqi01.png)
+![选择器1](./images/xuanzeqi.png)
+![选择器2](./images/xuanzeqi01.png)
 
 <a href="" id="youxianji"></a>
 ##CSS优先级
@@ -314,8 +314,8 @@ p的特性是     1（一个html选择器）
 怎么样才算是选择了“标准 W3C 盒子模型”呢？<br/>
 很简单，就是在网页的顶部加上 DOCTYPE 声明。如果不加 DOCTYPE 声明，那么各个浏览器会根据自己的行为去理解网页，即 IE 浏览器会采用 IE 盒子模型去解释你的盒子，而 FF 会采用标准 W3C 盒子模型解释你的盒子，所以网页在不同的浏览器中就显示的不一样了。反之，如果加上了 DOCTYPE 声明，那么所有浏览器都会采用标准 W3C 盒子模型去解释你的盒子，网页就能在各个浏览器中显示一致了。
 
-![W3Chezi](../images/W3Chezi.jpeg)
-![IEhezi](../images/IEhezi.jpeg)
+![W3Chezi](./images/W3Chezi.jpeg)
+![IEhezi](./images/IEhezi.jpeg)
 
 <a href="" id="dingwei"></a>
 CSS定位position
