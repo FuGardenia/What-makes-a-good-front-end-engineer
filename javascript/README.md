@@ -12,30 +12,39 @@ javscript的数据类型是松散型的，可以自动转换。
 	<tr>
 		<td colspan="1">类型</td>
 		<td>实例</td>
+		<td>typeof</td>
 	</tr>
 	<tr>
 		<td>字符串String</td>
 		<td></td>
+		<td>string</td>
 	</tr>
 	<tr>
 		<td>数字Number</td>
 		<td></td>
+		<td>number</td>
 	</tr>
 	<tr>
 		<td>布尔值Boolean</td>
 		<td></td>
+		<td>boolean</td>
 	</tr>
 	<tr>
 		<td>对象Object</td>
 		<td></td>
+		<td>undefined</td>
 	</tr>
 	<tr>
 		<td>Null</td>
-		<td></td>
+		<td>var car = null;<br/>
+    alert(typeof car); // "object"</td>
+    	<td>object</td>
 	</tr>
 	<tr>
 		<td>undefined</td>
-		<td></td>
+		<td> var message;<br/>
+    alert(message == undefined) //true</td>
+    <td></td>
 	</tr>
 	<tr>
 	</tr>
