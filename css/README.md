@@ -2,28 +2,29 @@
 >
 [1. CSS基础知识](#jichu)
 >>
-[选择器](#select)
-[优先级](#youxianji)
-[层叠和继承](#cengdie)
-[CSS字体](#ziti)
-[盒模型](#hezi)
-[定位](#dingwei)
-[浮动](#fudong)
+[选择器](#select)<br/>
+[优先级](#youxianji)<br/>
+[层叠和继承](#cengdie)<br/>
+[CSS字体](#ziti)<br/>
+[盒模型](#hezi)<br/>
+[定位](#dingwei)<br/>
+[浮动](#fudong)<br/>
 >
 [2. CSS进阶](#jingjie)
 >>
-[CSS Sprite](#sprite)
-[浏览器兼容性](#jianrong)
-[IE HasLayout和Block Format Content](#ie)
-[CSS Frameworks](#frameworks)
-[CSS3](#css3)
-[CSS性能优化](#xingneng)
-[LESS and SASS](#less)
+[CSS Sprite](#sprite)<br/>
+[lazyLoad](#lazyload)<br/>
+[浏览器兼容性](#jianrong)<br/>
+[IE HasLayout和Block Format Content](#ie)<br/>
+[CSS Frameworks](#frameworks)<br/>
+[CSS3](#css3)<br/>
+[CSS性能优化](#xingneng)<br/>
+[LESS and SASS](#less)<br/>
 
 <a href="" id="select"></a>
-##[【选择器】](http://www.w3school.com.cn/cssref/css_selectors.asp)
-![选择器1](./images/xuanzeqi.png)
-![选择器2](./images/xuanzeqi01.png)
+##[【选择器】](http://www.w3school.com.cn/cssref/css_selectors.asp)<br/>
+![选择器1](./images/xuanzeqi.png)<br/>
+![选择器2](./images/xuanzeqi01.png)<br/>
 
 <a href="" id="youxianji"></a>
 ##CSS优先级
@@ -336,6 +337,7 @@ CSS定位position
 <a href="" id="jingjie"></a>
 ##css进阶
 
+<a href="" id="sprite"></a>
 ###CSS Sprite
 CSS Sprite主要用于前端性能优化的一种技术，原理是通过将多张背景图片合成在一张图片上从而**减少HTTP请求**，加快载入速度。
 
@@ -343,6 +345,7 @@ CSS Sprites在开发的时候比较麻烦，你要通过photoshop或其他工具
 
 *CSS Sprites样式生成工具*
 
+[CSS Sprites:CSS+DIV制作一幅扑克牌实例系列教程](http://www.cnblogs.com/scgw/archive/2011/03/19/1988908.html)
 
 ####背景图片
 
@@ -357,7 +360,13 @@ CSS Sprites在开发的时候比较麻烦，你要通过photoshop或其他工具
 	background-origin	规定背景图片的定位区域。	3
 	background-clip	规定背景的绘制区域。	3
 	background-attachment	规定背景图像是否固定或者随着页面的其余部分滚动。	1
-	inherit										1
+	inherit	
+        1
+<a href="" id="lazyload"></a>
+###LazyLoad
+当网页页面滚动到相应的地方，对应位置的内容才进行加载显示，这样能明显减少了服务器的压力和流量，也能够减小浏览器的负担。  	
+						
+[jQuery图片延迟加载插件jQuery.lazyload](http://www.jq22.com/jquery-info390)
 
 <a href="" id="jianrong"></a>
 ###浏览器兼容性
