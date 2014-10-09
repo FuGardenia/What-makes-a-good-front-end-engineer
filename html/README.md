@@ -3,13 +3,15 @@
 [DOCTYPE](#DOCTYPE)
 >
 [标签](#biaoqian)
->>[块级元素](#kuaijiyuansu)
-[行级元素](#hangjiyuansu)
-[行内元素与块级函数的三个区别](#khqubie)
-[可变元素列表](#kebianyuansu)
-[行内元素转换为块级元素](#zhuanhuan)
+>>[块级元素](#kuaijiyuansu)<br/>
+[行级元素](#hangjiyuansu)<br/>
+[行内元素与块级函数的三个区别](#khqubie)<br/>
+[可变元素列表](#kebianyuansu)<br/>
+[行内元素转换为块级元素](#zhuanhuan)<br/>
 >
 [XHTML需注意](#xhtml)
+>
+[语义化](#yuyihua)
 
 <a href="" id="DOCTYPE"></a>
 ##DOCTYPE
@@ -145,7 +147,18 @@ XHTML 于2000年的1月26日成为 W3C 标准。W3C 将 XHTML 定义为最新的
 + XHTML 元素必须被正确地嵌套
 + XHTML 元素必须被关闭
 
-#标签的语义化
+<a id="yuyihua" ></a>
+#[标签的语义化](http://www.cnblogs.com/freeyiyi1993/p/3615179.html)
+
+> 好处
+>> 便于开发者阅读和写出更优雅的代码
+>> 让浏览器的爬虫和机器很好地解析
+>> 没有CSS的情况下，页面也能呈现出很好地内容结构
+>> 用户体验
+>> 有利于SEO
+>> 方便其他设备解析（如屏幕阅读器、盲人阅读器、移动设备）
+>> 便于团队开发和维护
+
 **为表达语义而标记文档，而不是为了样式。**结构良好的文档可以向浏览器传达尽可能多的语义，不论是浏览器位于掌上电脑还是时髦的桌面图形浏览器。结构良好的文档都能向用户传达可视化的语义，即使是在老的浏览器，或是在被用户关闭了 CSS 的现代浏览器中。同时结构良好的HTML代码也有助于搜索引擎索引你的网站。
 
 + 不要使用table布局，table是用来表格显示的。

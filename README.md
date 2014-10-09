@@ -1,5 +1,8 @@
 如何成为一个优秀的前端工程师
 ===
+[从输入域名到访问网站的过程](http://www.dreamdu.com/webbuild/internet_process/)
+![img](./images/internet_process.png)
+
 [w3.org中国](http://www.chinaw3c.org/)
 
 How to become a good web front-end engineer.

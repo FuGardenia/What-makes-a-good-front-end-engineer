@@ -1,7 +1,7 @@
 理解分析function
 ===
 1、基本函数
-	
+>	
 	function a(){
 		console.log("Hello World!");
 	}
@@ -19,7 +19,7 @@
 Hello World!
 
 2、带参数函数
-
+>
 	function a(b){
 		console.log(a);
 	}
@@ -29,7 +29,7 @@ Hello World!
 3
 
 3、字面量形式申明函数
-
+>
 	var a = function b(c){
 		console.log(c);
 	}
@@ -51,3 +51,4 @@ undefined
 	var a = function(){
 		console.log("c");
 	}
+
