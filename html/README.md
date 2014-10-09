@@ -170,6 +170,13 @@ XHTML 于2000年的1月26日成为 W3C 标准。W3C 将 XHTML 定义为最新的
 
 + 不要使用table布局，table是用来表格显示的。
 + 不要到处滥用div标签，div是用来分块用的。
++ 尽可能少的使用无语义的标签div和span
 + 不要使用样式标签，如font, center, big, small, b, i，样式可以用CSS来控制，b和i可以用strong和em来代替。
-+ 不要使用换行标签<br />和空格来控制样式，请用CSS。
++ 不要使用换行标签`<br />`和空格来控制样式，请用CSS。
 + 尽量不要使用内联CSS
++ 使用表格时，标题要用caption，表头用thead，主体部分用tbody包围，尾部用tfoot包围。表头和一般单元格要区分开，表头用th，单元格用td；
++ 表单域要用fieldset标签包起来，并用legend标签说明表单的用途；
++ 每个input标签对应的说明文本都需要使用label标签，并且通过为input设置id属性，在lable标签中设置for=someId来让说明文本和相对应的input关联起来。
+
+
+
