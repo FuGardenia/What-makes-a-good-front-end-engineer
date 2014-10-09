@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>yanzheng.js实例</title>
+<script type="text/javascript" src="../../script/jslib/jquery.js"></script>
+<script type="text/javascript" src="yanzheng1.js"></script>
+<script type="text/javascript">
+var form;
+$(function() {
+	var v_int = /^[0-9]*$/
+	var uf = new UserForm([
+		new Field(
+		{
+			fid:"f1",
+			val:[new Len_val(1,5,"请输入1到5个长度的数字！"),new Exp_val(v_int,"不是数字")],
+			suc:function(text){
+				$('#alert').html("");//val()不管用
+				$('#alert').attr('class','suc');
+			},
+			error:function(text){
+				$('#alert').html(text);
+				$('#alert').attr('class','error');
+			}
+		}),
+		new Field(
+		{
+			fid:"f2",
+			val:[new Len_val(1,5,"请输入1到5个长度的数字！"),new Exp_val(v_int,"不是数字")],
+			suc:function(text){
+				$('#alert2').html("");//val()不管用
+				$('#alert2').attr('class','suc');
+			},
+			error:function(text){
+				$('#alert2').html(text);
+				$('#alert2').attr('class','error');
+			}
+		})
+	]);
+	uf.set_submit(
+		"bt",
+		function(form){
+			alert("验证成功，可以进行下一步操作");
+		}
+	);
+});
+</script>
+<style type="text/css">
+.suc{
+	background-color: #00ff00;
+}
+.error{
+	background-color: #ff0000;
+}
+</style>
+</head>
+
+
+<body>
+	<input type="text" id="f1" name="f1"><span id="alert"></span><br/>
+	<input type="text" id="f2" name="f2"><span id="alert2"></span><br/>
+	<input type="button" id="bt" value="提交">
+</body>
+</html>
