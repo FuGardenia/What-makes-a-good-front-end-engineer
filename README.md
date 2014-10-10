@@ -17,6 +17,8 @@ I’m not a engineer，I’m an artist.
 
 [**前端知识体系及修炼攻略**](http://blog.csdn.net/borishuai/article/details/8676573)
 
+[航旅无线前端团队必备技能](https://github.com/jayli/jayli.github.com/issues/16)
+
 [Frontend Knowledge Structure](https://github.com/JacksonTian/fks)
 
 [大牛朴灵](http://html5ify.com/)
