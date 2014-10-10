@@ -21,6 +21,8 @@ JAVASCRIPT
 
 《jQuery基础教程》
 
+《面向对象的Javascript》
+
 AngularJS
 ---
 《AngularJS开发下一代Web应用》
