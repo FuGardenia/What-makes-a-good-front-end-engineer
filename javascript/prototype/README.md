@@ -1,5 +1,11 @@
 原型(prototype)
 ===
+【对象】Object();        <br/>    
+【工厂模式】createObject(name, age);        <br/>  
+【构造函数】Box(name, age);        <br/>
+【对象冒充】        <br/>
+【原型prototype】        <br/>
+
 
 面向对象
 --------
