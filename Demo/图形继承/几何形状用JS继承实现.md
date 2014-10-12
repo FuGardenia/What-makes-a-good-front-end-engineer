@@ -2,8 +2,6 @@
 ===
 ![几何图形](../../images/ct.gif)
 
-<code>
-<p>
 //形状
 
 	function Shape(edge){
@@ -143,6 +141,4 @@
 			+ "\n面积为："+c.getArea()
 				+ "\n边:"+c.getEdge();
 
-</p>
-</code>
 				
