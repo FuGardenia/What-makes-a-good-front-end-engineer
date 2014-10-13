@@ -10,9 +10,16 @@ float和inline-block
 
 ####float:left | right | none | inherit; 属性
 
+
 <style type="text/css">
+.space a {
+    display: inline-block;
+    padding: .5em 1em;
+    background-color: #cad5eb;
+}
+
 	.div1{
-		width: 50px;
+		width: 25%;
 		height: 50px;
 		background-color: #999;
 		border: 1px #000 solid;
@@ -34,18 +41,33 @@ float和inline-block
 		background-color: #666;
 		border: 1px #000 solid;
 	}
+	.div6{
+		height: 70px;
+	}
 </style>
+
+<div class="space">
+    <a href="##">inline-block</a>
+    <a href="##">display</a>
+    <a href="##">float</a>
+</div>
+
+
 <div class="float-div">
+	<div class="div1"></div>
+	<div class="div1 div6"></div>
 	<div class="div1"></div>
 	<div class="div1"></div>
 	<div class="div1"></div>
 	<div class="div1"></div>
 	<div class="div3"></div>
 </div>
-
+<div style="clear:both"></div>
 布局时，在浮动模块之后需要使用`clear:both;`清除浮动
 
 <div class="float-div">
+	<div class="div1"></div>
+	<div class="div1 div6"></div>
 	<div class="div1"></div>
 	<div class="div1"></div>
 	<div class="div1"></div>
@@ -59,16 +81,19 @@ float和inline-block
 
 <style type="text/css">
 	.div2{
-		width: 50px;
+		width: 25%;
 		height: 50px;
 		background-color: #ddd;
 		border: 1px #000 solid;
 		display: inline-block;
 	}
+	.div6{
+		height: 70px;
+	}
 </style>
 <div class="inline-block-div">
 	<div class="div2"></div>
-	<div class="div2"></div>
+	<div class="div2 div6"></div>
 	<div class="div2"></div>
 	<div class="div2"></div>
 	<div class="div2"></div>
