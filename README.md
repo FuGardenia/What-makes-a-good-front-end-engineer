@@ -1,7 +1,34 @@
 如何成为一个优秀的前端工程师
 ===
+##【书写规范：】
+>###单双引号：
+>>【单引号】用在`javascript`中
+>>【双引号】用在`HTML`中
+>###变量命名
+驼峰命名法（CamelCase）,首个单词的首字母小写，后面单词首字母大写。
+>
+	var resultArray，requestAnimationFrame;
+
+>###常量命名
+所有字母采用大写，多个单词用下划线隔开。
+>
+	var WIDTH=100，
+	    BRUSH_COLOR='#00ff00';
+
+>###jQuery类型变量
+以$开头。很方便地将它与普通变量区别开来，一看到以$开头我们就知道它是jQuery类型可以直接在其身上调用jQuery相关的方法。
+>
+	var $element=$('a');
+
+>###函数命名
+驼峰命名法（CamelCase）,首个单词的首字母小写，后面单词首字母大写。
+>>#####构造函数
+首字符大写。
+>>#####对象
+驼峰命名法
+
 [从输入域名到访问网站的过程](http://www.dreamdu.com/webbuild/internet_process/)
-![img](./images/internet_process.png)
+![img](images/internet_process.png)
 
 [w3.org中国](http://www.chinaw3c.org/)
 
