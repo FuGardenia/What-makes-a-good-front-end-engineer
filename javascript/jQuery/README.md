@@ -6,6 +6,7 @@ jQuery研究
 
 [【241个jquery插件—jquery插件大全】](http://blog.csdn.net/adsdassadfasdfasdf/article/details/5603206)
 
+[通过jQuery源码学习javascript](http://www.cnblogs.com/baochuan/archive/2012/11/21/2781118.html)
 jQuery插件开发
 ---
 #【设计模式】
