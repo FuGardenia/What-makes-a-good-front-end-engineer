@@ -27,6 +27,20 @@
 >>#####对象
 驼峰命名法
 
+##【文件规范：】
+
+	APP
+		-images     //图片文件夹
+		-script     //js文件夹
+			--js    //应用js common.js
+			--jslib //引用js jQuery.js
+		-style
+			--css   //common.css
+			--csslib //bootstrap.css
+		-view
+			--index.html
+
+
 [从输入域名到访问网站的过程](http://www.dreamdu.com/webbuild/internet_process/)
 ![img](images/internet_process.png)
 

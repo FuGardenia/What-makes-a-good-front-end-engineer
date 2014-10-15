@@ -28,3 +28,7 @@ HTML
 前端工程师联盟
 ===
 [http://wangyuanwai.com/](http://wangyuanwai.com/)
+
+内容居中
+
+position定位

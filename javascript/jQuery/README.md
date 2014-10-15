@@ -4,6 +4,8 @@ jQuery研究
 
 [【jQuery开发教程】](http://www.cnblogs.com/Wayou/p/jquery_plugin_tutorial.html#comment_form_container)
 
+[【241个jquery插件—jquery插件大全】](http://blog.csdn.net/adsdassadfasdfasdf/article/details/5603206)
+
 jQuery插件开发
 ---
 #【设计模式】
