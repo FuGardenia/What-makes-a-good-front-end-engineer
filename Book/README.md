@@ -23,6 +23,9 @@ JAVASCRIPT
 
 《面向对象的Javascript》
 
+---
+《超实用的JavaScript代码段》
+
 AngularJS
 ---
 《AngularJS开发下一代Web应用》
@@ -46,6 +49,9 @@ CSS
 
 Javscript
 ---
+[《javascript第一季·码农·图灵》](http://www.ituring.com.cn/article/62777)
+
+[《javascript第二季·码农·图灵》](http://www.ituring.com.cn/tupubarticle/1661)
 
 
 

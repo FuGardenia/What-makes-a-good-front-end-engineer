@@ -4,7 +4,29 @@
 ---
 javscript的数据类型是松散型的，可以自动转换。
 用 typeof 来检测数据类型。
-
+<style type="text/css">
+table {
+	display: block;
+	overflow: auto;
+	word-break: normal;
+	border-color: gray;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+table tr td{
+	padding: 6px 13px;
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+table tr:nth-child(even) td {
+ 	background-color: #eee;
+	border: 1px solid #ccc;
+}
+table tr:nth-child(odd) td{
+ 	border: 1px solid #ccc;
+}  
+</style>
 <table style="text-align:center;">
 	<tr>
 		<td colspan="6">数据类型</td>
@@ -49,6 +71,12 @@ javscript的数据类型是松散型的，可以自动转换。
 	<tr>
 	</tr>
 </table>
+
+##JavaScript 框架 / JavaScript 库
+
+JavaScript 库，插到既有架构中，补充特定功能。
+
+JavaScript 框架，提供一个架构（文件结构啊，等等），你必须遵守它，只要你遵守，那剩下的就全都是处理通用需求了。
 
 
 	变量
