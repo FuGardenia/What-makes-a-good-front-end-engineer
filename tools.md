@@ -4,7 +4,7 @@ Javascript
 ===
 [jquery API](http://jquery.bootcss.com/)
 
-[zeptojs](http://zeptojs.com/)
+[zeptojs](http://zeptojs.com/) [zepto.js教程中文版](http://www.css88.com/doc/zeptojs_api/)
 
 [bootcss 3](http://v3.bootcss.com/)
 CSS
