@@ -48,7 +48,7 @@ undefined
 
 4、
 
-	var a = function(){
+	var a = function(c){
 		console.log("c");
 	}
 
